@@ -1,0 +1,68 @@
+.Goog:link {
+	text-decoration: none;
+}
+.Goog:visited {
+	text-decoration: none;
+}
+.Goog:hover {
+	text-decoration: underline;
+}
+.Goog:active {
+	text-decoration: underline;
+}
+#Logo {
+	width: 200px;
+	height: 67px;
+}
+#Logo:hover {
+	opacity: 0.5;
+}
+
+html,body  {
+	margin: 0;
+	padding: 0;
+}
+#ZgornjaPasica {
+	background-color: Chocolate;
+	height: 100px;
+	width: 950px;
+}
+#GlavniOkvir {
+	background-color: white;
+	margin: 0 auto 0 auto;
+	width: 950px;
+}
+#Vsebina {
+	background-color: GoldenRod;
+	min-height: 350px;
+	width: 500px;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start; 
+}
+#Noga {
+	background-color: Moccasin;
+	height: 150px;
+	width: 950px;
+}
+#Sorodno {
+	background-color: DarkKhaki;
+	min-height: 350px;
+	width: 225px;
+}
+#Clanek {
+	background-color: DarkKhaki;
+	min-height: 350px;
+	width: 225px;
+}
+#Okvir {
+	display: flex;
+}
+ol {
+	margin-left: 175px;
+	margin-top: 100px;
+}
+a {
+	margin-left: 135px;
+	margin-bottom: 50px;
+}
